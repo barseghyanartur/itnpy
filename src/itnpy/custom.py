@@ -44,6 +44,30 @@ def preprocess(tokens: List[str], word2number: dict):
             _tokens.append("one")
             _tokens.append(curr_token)
 
+        # ---- Converts cases such as "double zero" -> "zero zero"
+        elif curr_token == "double" and (
+            (next_token in word2number and word2number[next_token].isdigit())
+            or len(next_token) == 1
+        ):
+            _tokens.append(next_token)
+
+        # ---- Converts cases such as "triple zero" -> "zero zero zero"
+        elif curr_token == "triple" and (
+            (next_token in word2number and word2number[next_token].isdigit())
+            or len(next_token) == 1
+        ):
+            _tokens.append(next_token)
+            _tokens.append(next_token)
+
+        # ---- Converts cases such as "quadruple zero" -> "zero zero zero zero"
+        elif curr_token == "quadruple" and (
+            (next_token in word2number and word2number[next_token].isdigit())
+            or len(next_token) == 1
+        ):
+            _tokens.append(next_token)
+            _tokens.append(next_token)
+            _tokens.append(next_token)
+
         else:
             _tokens.append(curr_token)
 
