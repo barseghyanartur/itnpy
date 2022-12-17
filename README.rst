@@ -4,8 +4,8 @@ Inverse Text Normalization
 .. raw:: html
 
    <div>
-   <img src="https://badgen.net/pypi/v/itnpy">
-   <img src="https://badgen.net/pypi/python/itnpy">
+   <img src="https://badgen.net/pypi/v/itnpy2">
+   <img src="https://badgen.net/pypi/python/itnpy2">
    <img src="https://badgen.net/github/license/barseghyanartur/itnpy">
    <img src="https://badgen.net/badge/code%20style/black?color=black">
    </div>
@@ -48,11 +48,11 @@ Installation
 
 This package supports Python versions >= 3.7
 
-To install from `pypi <https://pypi.org/project/itnpy>`_\ :
+To install from `pypi <https://pypi.org/project/itnpy2>`_\ :
 
 .. code-block:: shell
 
-   $ pip install itnpy
+   $ pip install itnpy2
 
 To install locally:
 

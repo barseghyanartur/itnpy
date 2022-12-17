@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages, setup
 
 ###############################################################################
-name = "itnpy"
+name = "itnpy2"
 author = "Brandhsu"
 author_email = "brandondhsu@gmail.com"
 license = "MIT"
