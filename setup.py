@@ -1,30 +1,45 @@
+import os
+
 from setuptools import find_packages, setup
 
-##########################################################################################################
+###############################################################################
 name = "itnpy"
 author = "Brandhsu"
 author_email = "brandondhsu@gmail.com"
 license = "MIT"
 url = "https://github.com/barseghyanartur/itnpy"
-description = "A simple, deterministic, and extensible approach to inverse text normalization for numbers"
-##########################################################################################################
+description = (
+    "A simple, deterministic, and extensible approach to inverse "
+    "text normalization for numbers"
+)
+###############################################################################
 
-PATH = {}
-PATH["root"] = "/Users/owner/Code/ai/ml/pypi/itnpy"
-PATH["version"] = "src/itnpy"
 
-with open(f"{PATH['root']}/README.md", "r") as f:
-    long_description = f.read()
+try:
+    with open(
+        os.path.join(os.path.dirname(__file__), "README.rst"), "r"
+    ) as __f:
+        long_description = __f.read()
+except OSError:
+    long_description = ""
 
 version = {}
-with open(f"{PATH['root']}/{PATH['version']}/_version.py", "r") as f:
-    exec(f.read(), version)
-
+try:
+    with open(
+        os.path.join(os.path.dirname(__file__), "src", "itnpy", "_version.py"),
+        "r",
+    ) as __f:
+        exec(__f.read(), version)
+except OSError:
+    long_description = ""
 
 packages = find_packages("src")
 
 install_requires = [
-    lib.strip() for lib in open(f"{PATH['root']}/requirements.txt").readlines()
+    __lib.strip()
+    for __lib in open(
+        os.path.join(os.path.dirname(__file__), "requirements.txt"), "r"
+    ).readlines()
 ]
 
 setup(
