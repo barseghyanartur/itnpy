@@ -1,0 +1,8 @@
+coverage
+py
+parametrize
+pytest-cov
+pytest-ordering
+pytest-pythonpath
+pytest
+tox
