@@ -1,7 +1,6 @@
 import itertools
 from typing import List, Union
 
-
 BACKGROUND_CLASS = "self"
 
 
@@ -92,7 +91,9 @@ def tokens2digit(tokens: List[str]) -> str:
 
 
 def number_length(number: str) -> int:
-    return sum(1 for _ in (itertools.takewhile(lambda digit: digit.isdigit(), number)))
+    return sum(
+        1 for _ in (itertools.takewhile(lambda digit: digit.isdigit(), number))
+    )
 
 
 def number_of_trailing_zeros(digit: str) -> int:

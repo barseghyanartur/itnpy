@@ -1,4 +1,5 @@
 from typing import List
+
 from .itn import number_of_trailing_zeros
 
 
@@ -39,7 +40,9 @@ def preprocess(tokens: List[str], word2number: dict):
             and curr_token in word2number
             and word2number[curr_token][:2] == "00"
         ) or (
-            not i and curr_token in word2number and word2number[curr_token][:2] == "00"
+            not i
+            and curr_token in word2number
+            and word2number[curr_token][:2] == "00"
         ):
             _tokens.append("one")
             _tokens.append(curr_token)
@@ -134,14 +137,21 @@ def postprocess_money(tokens: List[str]):
             continue
 
         # ---- Converts cases such as $1 and 1¢ -> $1 1¢
-        elif i and curr_token == "and" and "¢" in next_token and "$" in prev_token:
+        elif (
+            i
+            and curr_token == "and"
+            and "¢" in next_token
+            and "$" in prev_token
+        ):
             continue
 
         else:
             _tokens.append(curr_token)
 
     if _tokens:
-        if "¢" not in next_token or ("$" not in curr_token and "¢" in next_token):
+        if "¢" not in next_token or (
+            "$" not in curr_token and "¢" in next_token
+        ):
             _tokens.append(next_token)
 
     return _tokens

@@ -1,16 +1,18 @@
-from itnpy._version import __version__
-from itnpy.itn import *
-from itnpy.custom import *
-from itnpy import vocab
-
 from typing import Callable, List
+
+from itnpy import vocab
+from itnpy._version import __version__
+from itnpy.custom import *
+from itnpy.itn import *
 
 
 def inverse_normalize(
     spoken_tokens: List[str],
     word2number: dict,
     output_nested: bool = False,
-    normalize_func: Callable[[List[str]], List[str]] = inverse_normalize_numbers,
+    normalize_func: Callable[
+        [List[str]], List[str]
+    ] = inverse_normalize_numbers,
     preprocess_func: Callable[[List[str]], List[str]] = preprocess,
     postprocess_func: Callable[[List[str]], List[str]] = postprocess,
 ) -> Union[List[str], List[List[str]]]:
