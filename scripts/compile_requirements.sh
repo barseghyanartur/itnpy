@@ -14,6 +14,9 @@ pip-compile requirements/dev.in "$@"
 echo "docs.in"
 pip-compile requirements/docs.in "$@"
 
+echo "documentation.in"
+pip-compile requirements/documentation.in "$@"
+
 echo "test.in"
 pip-compile requirements/test.in "$@"
 
