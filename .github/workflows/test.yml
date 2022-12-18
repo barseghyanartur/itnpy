@@ -15,7 +15,7 @@ jobs:
         #          - Windows
         #          - MacOs
         python-version:
-          - "3.11"
+#          - "3.11"
           - "3.10"
           - "3.9"
           - "3.8"
@@ -31,7 +31,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
     - name: Install tox
-      run: python -m pip install tox-gh-actions
+      run: python -m pip install tox-gh-actions pip-tools
+    - name: Compile requirements
+      run: pip-compile requirements/testing.in
     - name: Run test suite
       run: tox -r
       env:
