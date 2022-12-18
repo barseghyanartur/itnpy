@@ -1,15 +1,25 @@
 Inverse Text Normalization
 ==========================
 
-.. raw:: html
+.. image:: https://img.shields.io/pypi/v/itnpy2.svg
+   :target: https://pypi.python.org/pypi/itnpy2
+   :alt: PyPI Version
 
-   <div>
-   <img src="https://badgen.net/pypi/v/itnpy2">
-   <img src="https://badgen.net/pypi/python/itnpy2">
-   <img src="https://badgen.net/github/license/barseghyanartur/itnpy">
-   <img src="https://badgen.net/badge/code%20style/black?color=black">
-   </div>
+.. image:: https://img.shields.io/pypi/pyversions/itnpy2.svg
+    :target: https://pypi.python.org/pypi/itnpy2/
+    :alt: Supported Python versions
 
+.. image:: https://github.com/barseghyanartur/itnpy/workflows/test/badge.svg
+   :target: https://github.com/barseghyanartur/itnpy/actions
+   :alt: Build Status
+
+.. image:: https://readthedocs.org/projects/faker-file/badge/?version=latest
+    :target: http://itnpy2.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+   :target: https://github.com/barseghyanartur/itnpy/blob/main/LICENSE
+   :alt: MIT
 
 A simple, deterministic, and extensible approach to 
 `inverse text normalization <https://www.google.com/search?q=inverse+text+normalization>`_ 
@@ -65,7 +75,7 @@ Tests
 
 To run tests, use ``pytest`` in the root folder of this repository:
 
-.. code-block:: shell
+.. code-block:: text
 
    $ ls
    LICENSE         assets          scripts         src
