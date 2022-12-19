@@ -1,0 +1,80 @@
+number,word,class
+0,oh,digit
+0,zero,digit
+1,one,digit
+2,two,digit
+3,three,digit
+4,four,digit
+5,five,digit
+6,six,digit
+7,seven,digit
+8,eight,digit
+9,nine,digit
+10,ten,cardinal
+11,eleven,cardinal
+12,twelve,cardinal
+13,thirteen,cardinal
+14,fourteen,cardinal
+15,fifteen,cardinal
+16,sixteen,cardinal
+17,seventeen,cardinal
+18,eighteen,cardinal
+19,nineteen,cardinal
+20,twenty,cardinal
+30,thirty,cardinal
+40,forty,cardinal
+50,fifty,cardinal
+60,sixty,cardinal
+70,seventy,cardinal
+80,eighty,cardinal
+90,ninety,cardinal
+00,hundred,cardinal
+000,thousand,cardinal
+000000,million,cardinal
+000000000,billion,cardinal
+000000000000,trillion,cardinal
+0th ,zeroth,ordinal
+1st ,first,ordinal
+2nd ,second,ordinal
+3rd ,third,ordinal
+4th ,fourth,ordinal
+5th ,fifth,ordinal
+6th ,sixth,ordinal
+7th ,seventh,ordinal
+8th ,eighth,ordinal
+9th ,ninth,ordinal
+10th ,tenth,ordinal
+11th ,eleventh,ordinal
+12th ,twelfth,ordinal
+13th ,thirteenth,ordinal
+14th ,fourteenth,ordinal
+15th ,fifteenth,ordinal
+16th ,sixteenth,ordinal
+17th ,seventeenth,ordinal
+18th ,eighteenth,ordinal
+19th ,nineteenth,ordinal
+20th ,twentieth,ordinal
+30th ,thirtieth,ordinal
+40th ,fortieth,ordinal
+50th ,fiftieth,ordinal
+60th ,sixtieth,ordinal
+70th ,seventieth,ordinal
+80th ,eightieth,ordinal
+90th ,ninetieth,ordinal
+00th ,hundredth,ordinal
+000th ,thousandth,ordinal
+000000th ,millionth,ordinal
+000000000th ,billionth,ordinal
+000000000000th ,trillionth,ordinal
+$ ,dollar,money
+$ ,dollars,money
+¢ ,cent,money
+¢ ,cents,money
+% ,percent,symbol
+% ,percents,symbol
+ +,plus,symbol
+ -,minus,symbol
+ -,negative,symbol
+-,dash,symbol
+.,dot,symbol
+.,point,symbol

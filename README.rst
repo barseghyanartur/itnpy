@@ -22,7 +22,7 @@ Inverse Text Normalization
    :alt: MIT
 
 A simple, deterministic, and extensible approach to 
-`inverse text normalization <https://www.google.com/search?q=inverse+text+normalization>`_ 
+`inverse text normalization <https://www.google.com/search?q=inverse+text+normalization>`__
 (ITN) for numbers.
 
 Overview
@@ -31,65 +31,53 @@ Overview
 This package converts raw spoken-form text (speech recognition output) into 
 user-friendly written-form text. It works best for converting spoken numbers 
 into numerical digits, or other translation tasks that do not modify word ordering. 
-A `csv <https://github.com/barseghyanartur/itnpy/blob/master/assets/vocab.csv>`_ 
+A `csv <https://github.com/barseghyanartur/itnpy/blob/master/assets/vocab.csv>`__
 file is provided to define the basic rules for transforming spoken tokens into 
 written tokens, and extra pre/post-processing may be applied for more specific 
 formatting requirements, i.e. dates, measurements, money, etc.
 
 ----
 
-.. raw:: html
+.. image:: https://raw.githubusercontent.com/barseghyanartur/itnpy/master/assets/terminal.png
+   :target: https://raw.githubusercontent.com/barseghyanartur/itnpy/master/assets/terminal.png
+   :alt: Terminal
 
-   <div align="center">
-       <img src="https://raw.githubusercontent.com/barseghyanartur/itnpy/master/assets/terminal.png" width=60%>
-   </div>
-
-
-
-.. raw:: html
-
-   <div align="center">
-       These examples were produced by running this <a href="https://github.com/barseghyanartur/itnpy/blob/master/scripts/docs.py">script</a>.
-   </div>
-
+These examples were produced by running this
+`script <https://github.com/barseghyanartur/itnpy/blob/master/scripts/docs.py>`__.
 
 Installation
 ------------
 
 This package supports Python versions >= 3.7
 
-To install from `pypi <https://pypi.org/project/itnpy2>`_\ :
+To install from `PyPI <https://pypi.org/project/itnpy2>`__:
 
 .. code-block:: shell
 
-   $ pip install itnpy2
+    pip install itnpy2
 
 To install locally:
 
 .. code-block:: shell
 
-   $ pip install -e .
+   pip install -e .
 
 Tests
 -----
 
 To run tests, use ``pytest`` in the root folder of this repository:
 
-.. code-block:: text
+.. code-block:: shell
 
-   $ ls
-   LICENSE         assets          scripts         src
-   README.md       requirements.txt    setup.py        tests
-
-   $ pytest
+    pytest
 
 Issues
 ------
 
 This package has been verified on a limited set of 
-`test-cases <https://github.com/barseghyanartur/itnpy/tree/master/tests/assets/>`_. 
+`test-cases <https://github.com/barseghyanartur/itnpy/tree/master/tests/assets/>`__.
 For any translation mistakes, feel free to open a pull request and update 
-`failing.csv <https://github.com/barseghyanartur/itnpy/blob/master/tests/assets/inverse_normalize_numbers/failing.csv>`_ 
+`failing.csv <https://github.com/barseghyanartur/itnpy/blob/master/tests/assets/inverse_normalize_numbers/failing.csv>`__
 with the input, expected output, and mistake; thanks!
 
 Citation

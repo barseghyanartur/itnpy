@@ -1,0 +1,52 @@
+input,output
+zero,0
+two,2
+twelve,12
+zero hundred,0100
+one hundred two,102
+one hundred twenty three,123
+one hundred and forty two,142
+three sixty,360
+three sixty five,365
+four twelve,412
+one thousand fifty four,1054
+one thousand one hundred one,1101
+two thousand and nineteen,2019
+thirty four hundred fifty six,3456
+two hundred thousand three hundred forty five,200345
+twenty three hundred thousand four,2300004
+sixty eight billion two hundred two million two,68202000002
+nine trillion eight hundred seven,9000000000807
+two million three thousand nine hundred and eighty four,2003984
+two million three thousand and nineteen,2003019
+three billion,3000000000
+three million,3000000
+one hundred twenty three million four hundred fifty six thousand seven hundred and eighty nine,123456789
+two million twenty three thousand and forty nine point two three six nine,2023049.2369
+one billion two million twenty three thousand and forty nine point two three six nine,1002023049.2369
+nineteen billion and nineteen,19000000019
+two million twenty three thousand and forty nine,2023049
+two point three,2.3
+point one,.1
+point nineteen,.19
+one hundred thirty five,135
+hundred,100
+thousand,1000
+million,1000000
+billion,1000000000
+nine point nine nine nine,9.999
+seven point nineteen,7.19
+hundred and fifteen million,115000000
+forty five hundred,4500
+negative two point three,-2.3
+negative four point thirty four,-4.34
+negative seven point nineteen,-7.19
+negative ten,-10
+minus ten point five,-10.5
+negative hundred twenty,-120
+negative billion,-1000000000
+negative one hundred twenty three million four hundred fifty six thousand seven hundred and eighty nine,-123456789
+negative one billion two million twenty three thousand and forty nine point two three six nine,-1002023049.2369
+one billion two hundred seventy four million,1274000000
+one million eighty two thousand,1082000
+one million one hundred and eighty two thousand,1182000
