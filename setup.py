@@ -76,7 +76,7 @@ setup(
         "Bug Tracker": "https://github.com/barseghyanartur/itnpy/issues",
         "Documentation": "https://itnpy2.readthedocs.io/",
         "Source Code": "https://github.com/barseghyanartur/itnpy",
-        "Changelog": "https://itnpy.readthedocs.io/"
+        "Changelog": "https://itnpy2.readthedocs.io/"
         "en/latest/changelog.html",
     },
 )
