@@ -15,11 +15,19 @@ are used for versioning (schema follows below):
   0.3.4 to 0.4).
 - All backwards incompatible changes are mentioned in this document.
 
+0.0.6
+-----
+2022-12-20
+
+- Tested against Python 3.11.
+- Fixes in test suite.
+- Fixes in docs.
+
 0.0.5
 -----
 2022-12-18
 
-Renamed to ``itnpy2``. Re-released on the PyPI.
+- Renamed to ``itnpy2``. Re-released on the PyPI.
 
 0.0.4
 -----
