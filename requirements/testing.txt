@@ -24,8 +24,10 @@ filelock==3.8.2
     #   virtualenv
 iniconfig==1.1.1
     # via pytest
-numpy==1.23.5
-    # via pandas
+numpy==1.24.0 ; python_version < "3.11"
+    # via
+    #   -r requirements/base.in
+    #   pandas
 packaging==22.0
     # via
     #   pyproject-api
