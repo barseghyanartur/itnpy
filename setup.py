@@ -21,16 +21,17 @@ except OSError:
     long_description = ""
 
 install_requires = [
+    "numpy",
     "pandas",
 ]
 
 tests_require = [
+    "coverage",
     "pytest",
     "pytest-cov",
     "pytest-django",
-    "pytest-pythonpath",
     "pytest-ordering",
-    "coverage",
+    "pytest-pythonpath",
 ]
 
 setup(
