@@ -12,7 +12,7 @@ chardet==5.1.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==6.5.0
+coverage[toml]==7.0.0
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -24,14 +24,16 @@ filelock==3.8.2
     #   virtualenv
 iniconfig==1.1.1
     # via pytest
-numpy==1.23.5
-    # via pandas
+numpy==1.24.0 ; python_version >= "3.8"
+    # via
+    #   -r requirements/base.in
+    #   pandas
 packaging==22.0
     # via
     #   pyproject-api
     #   pytest
     #   tox
-pandas==1.5.2
+pandas==1.5.2 ; python_version >= "3.8"
     # via -r requirements/base.in
 parametrize==0.1.1
     # via -r requirements/test.in
@@ -63,7 +65,7 @@ pytest-pythonpath==0.7.4
     # via -r requirements/test.in
 python-dateutil==2.8.2
     # via pandas
-pytz==2022.6
+pytz==2022.7
     # via pandas
 six==1.16.0
     # via python-dateutil
@@ -74,7 +76,7 @@ tomli==2.0.1
     #   coverage
     #   pyproject-api
     #   tox
-tox==4.0.12
+tox==4.0.16
     # via -r requirements/test.in
 virtualenv==20.17.1
     # via tox

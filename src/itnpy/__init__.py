@@ -1,4 +1,4 @@
-from typing import Callable, List
+from typing import Callable, List, Union
 
 from itnpy import vocab
 from itnpy._version import __version__

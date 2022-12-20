@@ -2,3 +2,4 @@ include README.rst
 include LICENSE
 include CHANGELOG.rst
 include MOTIVATION.rst
+include requirements.txt

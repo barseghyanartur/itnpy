@@ -1,7 +1,16 @@
 import pandas as pd
 
+__all__ = (
+    "get_dataframe",
+    "get_number2class_dict",
+    "get_word2class_dict",
+    "get_word2number_dict",
+    "number2word_dict",
+)
+
 GITHUB_CSV = (
-    "https://raw.githubusercontent.com/Brandhsu/itnpy/master/assets/vocab.csv"
+    "https://raw.githubusercontent.com/barseghyanartur/itnpy/master/"
+    "assets/vocab.csv"
 )
 
 

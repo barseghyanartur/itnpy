@@ -22,17 +22,19 @@ jinja2==3.1.2
     # via sphinx
 markupsafe==2.1.1
     # via jinja2
-numpy==1.23.5
-    # via pandas
+numpy==1.24.0 ; python_version >= "3.8"
+    # via
+    #   -r requirements/base.in
+    #   pandas
 packaging==22.0
     # via sphinx
-pandas==1.5.2
+pandas==1.5.2 ; python_version >= "3.8"
     # via -r requirements/base.in
 pygments==2.13.0
     # via sphinx
 python-dateutil==2.8.2
     # via pandas
-pytz==2022.6
+pytz==2022.7
     # via
     #   babel
     #   pandas

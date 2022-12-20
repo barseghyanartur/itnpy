@@ -12,7 +12,7 @@ chardet==5.1.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==6.5.0
+coverage[toml]==7.0.0
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -64,7 +64,7 @@ tomli==2.0.1
     #   coverage
     #   pyproject-api
     #   tox
-tox==4.0.12
+tox==4.0.16
     # via -r requirements/test.in
 virtualenv==20.17.1
     # via tox

@@ -1,6 +1,17 @@
 import itertools
 from typing import List, Union
 
+__all__ = (
+    "BACKGROUND_CLASS",
+    "inverse_normalize_numbers",
+    "group_tokens",
+    "spokens2digit",
+    "tokens2digit",
+    "number_length",
+    "number_of_trailing_zeros",
+    "inverse_normalize_classes",
+)
+
 BACKGROUND_CLASS = "self"
 
 
