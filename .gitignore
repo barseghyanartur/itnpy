@@ -31,3 +31,4 @@ itnpy2.egg-info
 matyan.log*
 db.sqlite3
 sample_db.sqlite
+local_settings.py
