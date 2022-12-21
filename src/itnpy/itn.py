@@ -44,6 +44,7 @@ def group_tokens(tokens: List[str], mask: List[int]) -> List[dict]:
     groups = []
     start = 0
 
+    value = None
     for i, _ in enumerate(tokens):
         if i:
             if value != mask[i]:

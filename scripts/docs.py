@@ -1,18 +1,19 @@
-import pandas as pd
 import sys
+
+import pandas as pd
 
 sys.path.append("../src")
 
 import itnpy
 import itnpy.vocab as vocab
 
-
 EXAMPLES = [
     "i payed one hundred and twenty seven dollars and twenty six cents",
     "was your birthday on march twenty ninth",
     "my phone number is nine four nine six eight two seventy fourteen",
     "i have a minus one hundred point four three balance",
-    "calling to place an order of three hundred thousand sixty four hundred and eighteen parts",
+    "calling to place an order of three hundred thousand sixty four hundred "
+    "and eighteen parts",
     "my order id is seven eighteen fourteen fifteen nine eight zero",
     "my date of birth is three seven fifty four",
     "what is eighty percent of negative point nine four",

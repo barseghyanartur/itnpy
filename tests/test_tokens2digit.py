@@ -1,24 +1,22 @@
 import pandas as pd
 import pytest
-import sys
-
-sys.path.append("src")
 
 import itnpy
 
+from .helpers import error_message
 
-def error_message(spoken, written, output):
-    df = [
-        {
-            "[spoken]".upper(): spoken,
-            "[written]".upper(): written,
-            "[output]".upper(): output,
-        }
-    ]
-    df = pd.DataFrame(df)
-    df = df.set_index("[spoken]".upper())
-    df = df.T
-    return "\n" + df.to_string()
+# def error_message(spoken, written, output):
+#     df = [
+#         {
+#             "[spoken]".upper(): spoken,
+#             "[written]".upper(): written,
+#             "[output]".upper(): output,
+#         }
+#     ]
+#     df = pd.DataFrame(df)
+#     df = df.set_index("[spoken]".upper())
+#     df = df.T
+#     return "\n" + df.to_string()
 
 
 @pytest.mark.parametrize(

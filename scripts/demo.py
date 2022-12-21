@@ -1,11 +1,11 @@
-import pandas as pd
 import sys
+
+import pandas as pd
 
 sys.path.append("../src")
 
 import itnpy
 import itnpy.vocab as vocab
-
 
 if __name__ == "__main__":
     df = vocab.get_dataframe()
