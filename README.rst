@@ -21,6 +21,10 @@ Inverse Text Normalization
    :target: https://github.com/barseghyanartur/itnpy/blob/main/LICENSE
    :alt: MIT
 
+.. image:: https://coveralls.io/repos/github/barseghyanartur/itnpy/badge.svg?branch=main&service=github
+    :target: https://coveralls.io/github/barseghyanartur/itnpy?branch=main
+    :alt: Coverage
+
 A simple, deterministic, and extensible approach to 
 `inverse text normalization <https://www.google.com/search?q=inverse+text+normalization>`__
 (ITN) for numbers.
